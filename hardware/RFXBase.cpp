@@ -242,6 +242,7 @@ void CRFXBase::Set_Async_Parameters(const _eRFXAsyncType AsyncType)
 
 void CRFXBase::Parse_Async_Data(const uint8_t *pData, const int Len)
 {
+	Log(LOG_STATUS, "Receive async Data xxx");
 	switch (m_AsyncType)
 	{
 	case ATYPE_P1_DSMR_1:
