@@ -208,7 +208,7 @@ void CRFXBase::Set_Async_Parameters(const _eRFXAsyncType AsyncType)
 		parity = asyncParityEven;
 		databits = asyncDatabits7;
 		stopbits = asyncStopbits1;
-		polarity = asyncPolarityInvers;
+		polarity = asyncPolarityNormal;
 		cmnd = asyncreceiveTeleinfo;
 		Log(LOG_STATUS, "Async mode set to: 'Teleinfo 1200' (not implemented yet!)");
 		break;
